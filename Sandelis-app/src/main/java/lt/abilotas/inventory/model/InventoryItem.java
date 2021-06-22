@@ -28,8 +28,8 @@ public class InventoryItem {
     @NotNull
     private int weight;
 
-    @Min(value=1, message="Sektorius negali buti maziau 1")
-    @Max(value=40, message="Sektorius negali buti didesnis 40")
+    @Min(10)
+    @Max(100)
     private int sector;
 
     @Temporal(TemporalType.DATE)

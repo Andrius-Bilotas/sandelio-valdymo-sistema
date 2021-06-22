@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9e38754f65557600595753de08bc843",
+    "revision": "857aa098366949890e03cf728a20e107",
     "url": "/sandelio-valdymas/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sandelio-valdymas/static/css/2.437d98bc.chunk.css"
   },
   {
-    "revision": "d460bf785d648c6cee15",
+    "revision": "fa250726e0e48a52e4f0",
     "url": "/sandelio-valdymas/static/css/main.aaed739b.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sandelio-valdymas/static/js/3.de93aa88.chunk.js"
   },
   {
-    "revision": "d460bf785d648c6cee15",
-    "url": "/sandelio-valdymas/static/js/main.4f593262.chunk.js"
+    "revision": "fa250726e0e48a52e4f0",
+    "url": "/sandelio-valdymas/static/js/main.44c7a637.chunk.js"
   },
   {
     "revision": "63b5d2397e11fc80caf8",

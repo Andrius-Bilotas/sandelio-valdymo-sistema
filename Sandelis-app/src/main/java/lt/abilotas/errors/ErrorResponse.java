@@ -12,6 +12,7 @@ import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.ConstraintViolationException;
 import java.util.Date;
 
 @RestController
@@ -28,6 +29,12 @@ public class ErrorResponse extends ResponseEntityExceptionHandler {
     @ExceptionHandler(JdbcSQLIntegrityConstraintViolationException.class)
     protected ResponseEntity<Object> handleSQLIntegrityConstraintViolation(HttpServletRequest req, Exception ex) {
         ErrorDetails errorDetails = new ErrorDetails(new Date(), "Toks vartotojas jau egzistuoja", ex.getMessage());
+        return new ResponseEntity<Object>(errorDetails, HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(ConstraintViolationException.class)
+    protected ResponseEntity<Object> handleConstraintViolation(HttpServletRequest req, Exception ex) {
+        ErrorDetails errorDetails = new ErrorDetails(new Date(), "Sektorius turi buti tarp 1 ir 40", ex.getMessage());
         return new ResponseEntity<Object>(errorDetails, HttpStatus.BAD_REQUEST);
     }
 
