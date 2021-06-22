@@ -17,13 +17,21 @@ public class ClientService {
 
     public List<ClientDTO> getAllClients() {
         return clientDAO.findAll().stream()
-                .map(clientMapper::mapFromClientToClientDTO)
+                .map(clientMapper::mapFromClientToClientDTOWithInventory)
                 .collect(Collectors.toList());
     }
 
     public List<ClientDTO> addClient(ClientDTO client) {
         clientDAO.save(clientMapper.mapFromClientDTOToClient(client));
         return getAllClients();
+    }
+
+    public ClientDTO getClientById(Long id) {
+        var client = clientDAO.findById(id).orElse(null);
+        if (client == null) {
+            return null;
+        }
+        return clientMapper.mapFromClientToClientDTOWithInventory(client);
     }
 
 }

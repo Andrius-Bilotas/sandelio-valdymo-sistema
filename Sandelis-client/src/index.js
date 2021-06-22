@@ -7,6 +7,8 @@ import { BrowserRouter } from 'react-router-dom';
 import NavigationComponent from './components/Navigation/NavigationComponent';
 import ClientListContainer from './components/Clients/ClientListContainer';
 import NewClientFormContainer from './components/Clients/NewClientFormContainer';
+import ClientInventoryContainer from './components/Clients/ClientInventoryContainer';
+import NewClientInventoryFormContainer from './components/Clients/NewClientInventoryFormContainer';
 
 
 var NoMatch = (props) => {
@@ -28,6 +30,8 @@ ReactDOM.render(
           <Switch>
             <Route exact path='/' component={ClientListContainer} />
             <Route exact path='/klientai/prideti' component={NewClientFormContainer} />
+            <Route exact path='/klientai/:id' component={ClientInventoryContainer} />
+            <Route exact path='/klientai/:id/prideti' component={NewClientInventoryFormContainer} />
             <Route path="*" component={NoMatch} />
           </Switch>
     </BrowserRouter>

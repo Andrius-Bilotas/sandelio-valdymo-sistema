@@ -26,6 +26,9 @@ export default class ClientListContainer extends Component {
     render() {
         return (
         <main className="container pt-3">
+            <div className="row pt-3 justify-content-center">
+                <h2>Klientai</h2>
+            </div>
             <div className="row pt-3">
                 <Link to='/klientai/prideti' className="btn btn-primary">Pridėti klientą</Link>
             </div>

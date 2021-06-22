@@ -9,7 +9,7 @@ export default class NewClientFromContainer extends Component {
             lastname: "",
             birthdate: "",
             phone: "",
-            clientType: ""
+            clientType: "REGULAR"
         }
     }
 
@@ -17,11 +17,11 @@ export default class NewClientFromContainer extends Component {
         event.preventDefault();
         axios.post('/sandelio-valdymas/api/clients', {firstname: this.state.firstname, lastname: this.state.lastname, birthdate: this.state.birthdate, phone: this.state.phone, clientType: this.state.clientType})
             .then(res => {
-                console.log(res);
                 this.props.history.push("/");
             })
             .catch(err => {
                 console.log(err);
+                alert(err.response.data.message);
             })
     }
 
@@ -35,6 +35,9 @@ export default class NewClientFromContainer extends Component {
     render() {
         return (
             <main className="container pt-3">
+                <div className="row pt-3 justify-content-center">
+                    <h2>Naujo kliento kūrimo forma</h2>
+                </div>
                 <div className="row pt-3">
                     <form className="pt-3" onSubmit={this.handleSubmit}>
                     <div className="form-group">
