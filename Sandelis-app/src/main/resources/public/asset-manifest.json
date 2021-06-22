@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/sandelio-valdymas/static/js/main.7243d694.chunk.js",
+    "main.js.map": "/sandelio-valdymas/static/js/main.7243d694.chunk.js.map",
+    "runtime-main.js": "/sandelio-valdymas/static/js/runtime-main.fc3e7a32.js",
+    "runtime-main.js.map": "/sandelio-valdymas/static/js/runtime-main.fc3e7a32.js.map",
+    "static/css/2.437d98bc.chunk.css": "/sandelio-valdymas/static/css/2.437d98bc.chunk.css",
+    "static/js/2.536acf59.chunk.js": "/sandelio-valdymas/static/js/2.536acf59.chunk.js",
+    "static/js/2.536acf59.chunk.js.map": "/sandelio-valdymas/static/js/2.536acf59.chunk.js.map",
+    "static/js/3.1a2ca167.chunk.js": "/sandelio-valdymas/static/js/3.1a2ca167.chunk.js",
+    "static/js/3.1a2ca167.chunk.js.map": "/sandelio-valdymas/static/js/3.1a2ca167.chunk.js.map",
+    "index.html": "/sandelio-valdymas/index.html",
+    "precache-manifest.4faaf77d12db268fd8505b833300b703.js": "/sandelio-valdymas/precache-manifest.4faaf77d12db268fd8505b833300b703.js",
+    "service-worker.js": "/sandelio-valdymas/service-worker.js",
+    "static/css/2.437d98bc.chunk.css.map": "/sandelio-valdymas/static/css/2.437d98bc.chunk.css.map",
+    "static/js/2.536acf59.chunk.js.LICENSE.txt": "/sandelio-valdymas/static/js/2.536acf59.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc3e7a32.js",
+    "static/css/2.437d98bc.chunk.css",
+    "static/js/2.536acf59.chunk.js",
+    "static/js/main.7243d694.chunk.js"
+  ]
+}
