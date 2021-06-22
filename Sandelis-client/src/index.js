@@ -9,6 +9,9 @@ import ClientListContainer from './components/Clients/ClientListContainer';
 import NewClientFormContainer from './components/Clients/NewClientFormContainer';
 import ClientInventoryContainer from './components/Clients/ClientInventoryContainer';
 import NewClientInventoryFormContainer from './components/Clients/NewClientInventoryFormContainer';
+import ReportContainer from './components/Report/ReportContainer';
+
+import './styles.css';
 
 
 var NoMatch = (props) => {
@@ -32,6 +35,7 @@ ReactDOM.render(
             <Route exact path='/klientai/prideti' component={NewClientFormContainer} />
             <Route exact path='/klientai/:id' component={ClientInventoryContainer} />
             <Route exact path='/klientai/:id/prideti' component={NewClientInventoryFormContainer} />
+            <Route exact path='/ataskaita' component={ReportContainer} />
             <Route path="*" component={NoMatch} />
           </Switch>
     </BrowserRouter>

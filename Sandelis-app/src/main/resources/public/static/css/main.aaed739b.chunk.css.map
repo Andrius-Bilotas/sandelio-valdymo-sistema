@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,KACI,wBACJ,CACA,SACI,wBACJ","file":"main.aaed739b.chunk.css","sourcesContent":["body {\r\n    background-color: #9DD7FF;\r\n}\r\ndiv.card {\r\n    background-color: #C469DD;\r\n}"]}

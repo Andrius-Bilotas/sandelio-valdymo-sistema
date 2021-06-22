@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.js": "/sandelio-valdymas/static/js/main.913e9a86.chunk.js",
-    "main.js.map": "/sandelio-valdymas/static/js/main.913e9a86.chunk.js.map",
-    "runtime-main.js": "/sandelio-valdymas/static/js/runtime-main.fc3e7a32.js",
-    "runtime-main.js.map": "/sandelio-valdymas/static/js/runtime-main.fc3e7a32.js.map",
+    "main.css": "/sandelio-valdymas/static/css/main.aaed739b.chunk.css",
+    "main.js": "/sandelio-valdymas/static/js/main.4f593262.chunk.js",
+    "main.js.map": "/sandelio-valdymas/static/js/main.4f593262.chunk.js.map",
+    "runtime-main.js": "/sandelio-valdymas/static/js/runtime-main.fb44e8de.js",
+    "runtime-main.js.map": "/sandelio-valdymas/static/js/runtime-main.fb44e8de.js.map",
     "static/css/2.437d98bc.chunk.css": "/sandelio-valdymas/static/css/2.437d98bc.chunk.css",
-    "static/js/2.a4543652.chunk.js": "/sandelio-valdymas/static/js/2.a4543652.chunk.js",
-    "static/js/2.a4543652.chunk.js.map": "/sandelio-valdymas/static/js/2.a4543652.chunk.js.map",
-    "static/js/3.1a2ca167.chunk.js": "/sandelio-valdymas/static/js/3.1a2ca167.chunk.js",
-    "static/js/3.1a2ca167.chunk.js.map": "/sandelio-valdymas/static/js/3.1a2ca167.chunk.js.map",
+    "static/js/2.5dafc8d6.chunk.js": "/sandelio-valdymas/static/js/2.5dafc8d6.chunk.js",
+    "static/js/2.5dafc8d6.chunk.js.map": "/sandelio-valdymas/static/js/2.5dafc8d6.chunk.js.map",
+    "static/js/3.de93aa88.chunk.js": "/sandelio-valdymas/static/js/3.de93aa88.chunk.js",
+    "static/js/3.de93aa88.chunk.js.map": "/sandelio-valdymas/static/js/3.de93aa88.chunk.js.map",
     "index.html": "/sandelio-valdymas/index.html",
-    "precache-manifest.8faef96e75c35a6ae401e2b8225316b9.js": "/sandelio-valdymas/precache-manifest.8faef96e75c35a6ae401e2b8225316b9.js",
+    "precache-manifest.d9aa1286b3089765ec74b9389cc7aad9.js": "/sandelio-valdymas/precache-manifest.d9aa1286b3089765ec74b9389cc7aad9.js",
     "service-worker.js": "/sandelio-valdymas/service-worker.js",
     "static/css/2.437d98bc.chunk.css.map": "/sandelio-valdymas/static/css/2.437d98bc.chunk.css.map",
-    "static/js/2.a4543652.chunk.js.LICENSE.txt": "/sandelio-valdymas/static/js/2.a4543652.chunk.js.LICENSE.txt"
+    "static/css/main.aaed739b.chunk.css.map": "/sandelio-valdymas/static/css/main.aaed739b.chunk.css.map",
+    "static/js/2.5dafc8d6.chunk.js.LICENSE.txt": "/sandelio-valdymas/static/js/2.5dafc8d6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc3e7a32.js",
+    "static/js/runtime-main.fb44e8de.js",
     "static/css/2.437d98bc.chunk.css",
-    "static/js/2.a4543652.chunk.js",
-    "static/js/main.913e9a86.chunk.js"
+    "static/js/2.5dafc8d6.chunk.js",
+    "static/css/main.aaed739b.chunk.css",
+    "static/js/main.4f593262.chunk.js"
   ]
 }
